@@ -1,12 +1,12 @@
 {
-    "name": "Elrincondeisma/laravel-authentication-log-mongodb",
+    "name": "elrincondeisma/laravel-authentication-log-mongodb",
     "description": "Log user authentication details and send new device notifications.",
     "keywords": [
         "Elrincondeisma",
         "laravel",
         "laravel-authentication-log-mongodb"
     ],
-    "homepage": "https://github.com/Elrincondeisma/laravel-authentication-log-mongodb",
+    "homepage": "https://github.com/elrincondeisma/laravel-authentication-log-mongodb",
     "license": "MIT",
     "authors": [
         {
