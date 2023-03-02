@@ -1,6 +1,6 @@
 <?php
 
-namespace Elrincondeisma\LaravelAuthenticationLog\Models;
+namespace Elrincondeisma\LaravelAuthenticationLogMongodb\Models;
 
 use Jenssegers\Mongodb\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\MorphTo;

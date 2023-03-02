@@ -1,8 +1,8 @@
 <?php
 
-namespace Elrincondeisma\LaravelAuthenticationLog\Traits;
+namespace Elrincondeisma\LaravelAuthenticationLogMongodb\Traits;
 
-use Elrincondeisma\LaravelAuthenticationLog\Models\AuthenticationLog;
+use Elrincondeisma\LaravelAuthenticationLogMongodb\Models\AuthenticationLog;
 
 trait AuthenticationLoggable
 {

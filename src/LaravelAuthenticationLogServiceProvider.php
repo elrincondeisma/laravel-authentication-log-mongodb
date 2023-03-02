@@ -7,11 +7,11 @@ use Illuminate\Auth\Events\Login;
 use Illuminate\Auth\Events\Logout;
 use Illuminate\Auth\Events\OtherDeviceLogout;
 use Illuminate\Contracts\Events\Dispatcher;
-use Elrincondeisma\LaravelAuthenticationLog\Commands\PurgeAuthenticationLogCommand;
-use Elrincondeisma\LaravelAuthenticationLog\Listeners\FailedLoginListener;
-use Elrincondeisma\LaravelAuthenticationLog\Listeners\LoginListener;
-use Elrincondeisma\LaravelAuthenticationLog\Listeners\LogoutListener;
-use Elrincondeisma\LaravelAuthenticationLog\Listeners\OtherDeviceLogoutListener;
+use Elrincondeisma\LaravelAuthenticationLogMongodb\Commands\PurgeAuthenticationLogCommand;
+use Elrincondeisma\LaravelAuthenticationLogMongodb\Listeners\FailedLoginListener;
+use Elrincondeisma\LaravelAuthenticationLogMongodb\Listeners\LoginListener;
+use Elrincondeisma\LaravelAuthenticationLogMongodb\Listeners\LogoutListener;
+use Elrincondeisma\LaravelAuthenticationLogMongodb\Listeners\OtherDeviceLogoutListener;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
 

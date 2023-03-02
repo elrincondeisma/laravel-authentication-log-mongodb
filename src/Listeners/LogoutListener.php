@@ -1,10 +1,10 @@
 <?php
 
-namespace Elrincondeisma\LaravelAuthenticationLog\Listeners;
+namespace Elrincondeisma\LaravelAuthenticationLogMongodb\Listeners;
 
 use Illuminate\Auth\Events\Logout;
 use Illuminate\Http\Request;
-use Elrincondeisma\LaravelAuthenticationLog\Models\AuthenticationLog;
+use Elrincondeisma\LaravelAuthenticationLogMongodb\Models\AuthenticationLog;
 
 class LogoutListener
 {

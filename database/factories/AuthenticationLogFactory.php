@@ -1,9 +1,9 @@
 <?php
 
-namespace Elrincondeisma\LaravelAuthenticationLog\Database\Factories;
+namespace Elrincondeisma\LaravelAuthenticationLogMongodb\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
-use Elrincondeisma\LaravelAuthenticationLog\Models\AuthenticationLog;
+use Elrincondeisma\LaravelAuthenticationLogMongodb\Models\AuthenticationLog;
 
 class AuthenticationLogFactory extends Factory
 {

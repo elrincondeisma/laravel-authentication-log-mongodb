@@ -1,11 +1,11 @@
 <?php
 
-namespace Elrincondeisma\LaravelAuthenticationLog\Listeners;
+namespace Elrincondeisma\LaravelAuthenticationLogMongodb\Listeners;
 
 use Illuminate\Auth\Events\Login;
 use Illuminate\Http\Request;
 use Illuminate\Support\Carbon;
-use Elrincondeisma\LaravelAuthenticationLog\Notifications\NewDevice;
+use Elrincondeisma\LaravelAuthenticationLogMongodb\Notifications\NewDevice;
 
 class LoginListener
 {
