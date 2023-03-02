@@ -1,6 +1,6 @@
 <?php
 
-namespace Elrincondeisma\LaravelAuthenticationLog;
+namespace Elrincondeisma\LaravelAuthenticationLogMongodb;
 
 use Illuminate\Auth\Events\Failed;
 use Illuminate\Auth\Events\Login;
