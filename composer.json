@@ -1,5 +1,5 @@
 {
-    "name": "elrincondeisma/laravel-authentication-log-mongodb",
+    "name": "elrincondeisma/laravelmongolog",
     "description": "Log user authentication details and send new device notifications.",
     "keywords": [
         "Elrincondeisma",
@@ -31,13 +31,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Elrincondeisma\\LaravelAuthenticationLogMongodb\\": "src",
-            "Elrincondeisma\\LaravelAuthenticationLogMongodb\\Database\\Factories\\": "database/factories"
+            "Elrincondeisma\\Laravelmongolog\\": "src",
+            "Elrincondeisma\\Laravelmongolog\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Elrincondeisma\\LaravelAuthenticationLogMongodb\\Tests\\": "tests"
+            "Elrincondeisma\\Laravelmongolog\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -53,7 +53,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Elrincondeisma\\LaravelAuthenticationLogMongodb\\LaravelAuthenticationLogMongodbServiceProvider"
+                "Elrincondeisma\\Laravelmongolog\\LaravelmongologServiceProvider"
             ]
         }
     },

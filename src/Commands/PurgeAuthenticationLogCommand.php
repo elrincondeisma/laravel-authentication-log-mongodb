@@ -1,9 +1,9 @@
 <?php
 
-namespace Elrincondeisma\LaravelAuthenticationLogMongodb\Commands;
+namespace Elrincondeisma\Laravelmongolog\Commands;
 
 use Illuminate\Console\Command;
-use Elrincondeisma\LaravelAuthenticationLogMongodb\Models\AuthenticationLog;
+use Elrincondeisma\Laravelmongolog\Models\AuthenticationLog;
 
 class PurgeAuthenticationLogCommand extends Command
 {

@@ -1,21 +1,21 @@
 <?php
 
-namespace Elrincondeisma\LaravelAuthenticationLogMongodb;
+namespace Elrincondeisma\Laravelmongolog;
 
 use Illuminate\Auth\Events\Failed;
 use Illuminate\Auth\Events\Login;
 use Illuminate\Auth\Events\Logout;
 use Illuminate\Auth\Events\OtherDeviceLogout;
 use Illuminate\Contracts\Events\Dispatcher;
-use Elrincondeisma\LaravelAuthenticationLogMongodb\Commands\PurgeAuthenticationLogCommand;
-use Elrincondeisma\LaravelAuthenticationLogMongodb\Listeners\FailedLoginListener;
-use Elrincondeisma\LaravelAuthenticationLogMongodb\Listeners\LoginListener;
-use Elrincondeisma\LaravelAuthenticationLogMongodb\Listeners\LogoutListener;
-use Elrincondeisma\LaravelAuthenticationLogMongodb\Listeners\OtherDeviceLogoutListener;
+use Elrincondeisma\Laravelmongolog\Commands\PurgeAuthenticationLogCommand;
+use Elrincondeisma\Laravelmongolog\Listeners\FailedLoginListener;
+use Elrincondeisma\Laravelmongolog\Listeners\LoginListener;
+use Elrincondeisma\Laravelmongolog\Listeners\LogoutListener;
+use Elrincondeisma\Laravelmongolog\Listeners\OtherDeviceLogoutListener;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
 
-class LaravelAuthenticationLogServiceProvider extends PackageServiceProvider
+class LaravelmongologServiceProvider extends PackageServiceProvider
 {
     public function configurePackage(Package $package): void
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Elrincondeisma\LaravelAuthenticationLogMongodb\Notifications;
+namespace Elrincondeisma\Laravelmongolog\Notifications;
 
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
@@ -8,7 +8,7 @@ use Illuminate\Notifications\Messages\MailMessage;
 use Illuminate\Notifications\Messages\NexmoMessage;
 use Illuminate\Notifications\Messages\SlackMessage;
 use Illuminate\Notifications\Notification;
-use Elrincondeisma\LaravelAuthenticationLogMongodb\Models\AuthenticationLog;
+use Elrincondeisma\Laravelmongolog\Models\AuthenticationLog;
 
 class FailedLogin extends Notification implements ShouldQueue
 {

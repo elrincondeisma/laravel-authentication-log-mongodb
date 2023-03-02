@@ -1,10 +1,10 @@
 <?php
 
-namespace Elrincondeisma\LaravelAuthenticationLogMongodb\Listeners;
+namespace Elrincondeisma\Laravelmongolog\Listeners;
 
 use Illuminate\Auth\Events\OtherDeviceLogout;
 use Illuminate\Http\Request;
-use Elrincondeisma\LaravelAuthenticationLogMongodb\Models\AuthenticationLog;
+use Elrincondeisma\Laravelmongolog\Models\AuthenticationLog;
 
 class OtherDeviceLogoutListener
 {

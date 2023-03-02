@@ -1,10 +1,10 @@
 <?php
 
-namespace Elrincondeisma\LaravelAuthenticationLogMongodb\Listeners;
+namespace Elrincondeisma\Laravelmongolog\Listeners;
 
 use Illuminate\Auth\Events\Failed;
 use Illuminate\Http\Request;
-use Elrincondeisma\LaravelAuthenticationLogMongodb\Notifications\FailedLogin;
+use Elrincondeisma\Laravelmongolog\Notifications\FailedLogin;
 
 class FailedLoginListener
 {
