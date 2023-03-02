@@ -31,13 +31,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Elrincondeisma\\LaravelAuthenticationLog\\": "src",
-            "Elrincondeisma\\LaravelAuthenticationLog\\Database\\Factories\\": "database/factories"
+            "Elrincondeisma\\LaravelAuthenticationLogMongodb\\": "src",
+            "Elrincondeisma\\LaravelAuthenticationLogMongodb\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Elrincondeisma\\LaravelAuthenticationLog\\Tests\\": "tests"
+            "Elrincondeisma\\LaravelAuthenticationLogMongodb\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -53,7 +53,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Elrincondeisma\\LaravelAuthenticationLog\\LaravelAuthenticationLogServiceProvider"
+                "Elrincondeisma\\LaravelAuthenticationLogMongodb\\LaravelAuthenticationLogMongodbServiceProvider"
             ]
         }
     },
