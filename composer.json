@@ -1,0 +1,62 @@
+{
+    "name": "Elrincondeisma/laravel-authentication-log-mongodb",
+    "description": "Log user authentication details and send new device notifications.",
+    "keywords": [
+        "Elrincondeisma",
+        "laravel",
+        "laravel-authentication-log-mongodb"
+    ],
+    "homepage": "https://github.com/Elrincondeisma/laravel-authentication-log-mongodb",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ismael Catalá",
+            "email": "icatala@me.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "illuminate/contracts": "^10.0",
+        "spatie/laravel-package-tools": "^1.4.3",
+        "jenssegers/mongodb": "dev-master"
+    },
+    "require-dev": {
+        "nunomaduro/collision": "^6.0",
+        "orchestra/testbench": "^7.0",
+        "pestphp/pest": "^1.21",
+        "pestphp/pest-plugin-laravel": "^1.2",
+        "spatie/laravel-ray": "^1.29",
+        "vimeo/psalm": "^4.20"
+    },
+    "autoload": {
+        "psr-4": {
+            "Elrincondeisma\\LaravelAuthenticationLog\\": "src",
+            "Elrincondeisma\\LaravelAuthenticationLog\\Database\\Factories\\": "database/factories"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Elrincondeisma\\LaravelAuthenticationLog\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "./vendor/bin/pest --no-coverage",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Elrincondeisma\\LaravelAuthenticationLog\\LaravelAuthenticationLogServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
